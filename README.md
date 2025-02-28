@@ -41,7 +41,6 @@ This repository contains MATLAB implementations of various numerical methods com
 
 ### 🔹 Interpolation & Regression  
 - **Least Squares Regression** ([Code](src/least_squares.m))  
-- **Lagrange Interpolation** ([Code](src/lagrange_interp.m))  
 - **Spline Interpolation** ([Code](src/spline_interp.m))  
 
 ### 🔹 Differential Equations  
