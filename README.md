@@ -3,7 +3,7 @@
 ## 📌 Overview  
 This repository contains MATLAB implementations of various numerical methods commonly used in **chemical engineering computations**. The project is based on the **Computational Tools for Chemical Engineers (CHC204)** course and includes methods for **root-finding, interpolation, regression, linear, non-linear and differential equations, and matrix operations**.
 
-## 📂 Repository Structure  
+
 ## 📂 Repository Structure  
 - **README.md** → Project documentation  
 - **src/** → MATLAB scripts for numerical methods  
@@ -27,7 +27,7 @@ This repository contains MATLAB implementations of various numerical methods com
 2. Open MATLAB and navigate to the cloned folder.
 3. Run any script from the src/ directory to test a numerical method.
 
-📖 Numerical Methods Covered
+##📖 Numerical Methods Covered
 🔹 Root-Finding Methods
 Newton-Raphson Method (Code)
 Quasi-Newton-Raphson Method (Code)
