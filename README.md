@@ -4,15 +4,16 @@
 This repository contains MATLAB implementations of various numerical methods commonly used in **chemical engineering computations**. The project is based on the **Computational Tools for Chemical Engineers (CHC204)** course and includes methods for **root-finding, interpolation, regression, linear, non-linear and differential equations, and matrix operations**.
 
 ## 📂 Repository Structure  
-MATLAB-Numerical-Methods
-│── README.md          # Project documentation
-│── src/               # MATLAB scripts for numerical methods
-│── notebooks/         # MATLAB live scripts (.mlx) for interactive learning
-│── data/              # Sample datasets used in the case studies
-│── results/           # Output files and graphs from simulations
-│── docs/              # Theoretical explanations and methodology
-│── LICENSE            # License details
-│── .gitignore         # Files to be ignored by Git
+## 📂 Repository Structure  
+- **README.md** → Project documentation  
+- **src/** → MATLAB scripts for numerical methods  
+- **notebooks/** → MATLAB live scripts (`.mlx`) for interactive learning  
+- **data/** → Sample datasets used in the case studies  
+- **results/** → Output files and graphs from simulations  
+- **docs/** → Theoretical explanations and methodology  
+- **LICENSE** → License details  
+- **.gitignore** → Files to be ignored by Git  
+
 
 ## 🚀 Getting Started  
 ### Prerequisites  
