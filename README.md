@@ -6,14 +6,9 @@ This repository contains MATLAB implementations of various numerical methods com
 
 ## 📂 Repository Structure  
 - **README.md** → Project documentation  
-- **src/** → MATLAB scripts for numerical methods  
-- **notebooks/** → MATLAB scripts (.m files) for numerical methods  
-- **data/** → Sample datasets used in the case studies  
-- **results/** → Output files and graphs from simulations  
-- **docs/** → Theoretical explanations and methodology  
+- **src/** → MATLAB scripts (`.m` files) for numerical methods  
 - **LICENSE** → License details  
 - **.gitignore** → Files to be ignored by Git  
-
 
 ## 🚀 Getting Started  
 ### Prerequisites  
