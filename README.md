@@ -1,7 +1,7 @@
 # Numerical Methods in MATLAB for Chemical Engineering  
 
 ## 📌 Overview  
-This repository contains MATLAB implementations of various numerical methods commonly used in **chemical engineering computations**. The project is based on the **Computational Tools for Chemical Engineers (CHC204)** course and includes methods for **root-finding, interpolation, regression, linear, non-linear and differential equations, and matrix operations**.
+This repository contains MATLAB implementations of various numerical methods commonly used in **chemical engineering computations**. The project is based on the **Computational Tools for Chemical Engineers (CHC204)** course and includes methods for **root-finding, interpolation, regression, non-linear and differential equations, and matrix operations**.
 
 
 ## 📂 Repository Structure  
@@ -37,15 +37,20 @@ This repository contains MATLAB implementations of various numerical methods com
 
 ### 🔹 Linear Algebra & Matrix Operations  
 - **Gauss Elimination** ([Code](src/gauss_elimination.m))  
-- **Matrix Operations (Addition, Multiplication, Inversion)** ([Code](src/matrix_operations.m))  
+- **Matrix Operations-I (Addition, Inversion)** ([Code](src/matrix_operations.m))
+- **Matrix Operations-II (Multiplication)** ([Code](src/matrix_operations2.m))  
+
+### 🔹 Non-Linear Algebraic Equations
+- **Trust-region/levenberg-marquardt** ([Code](src/trust_region.m))
 
 ### 🔹 Interpolation & Regression  
 - **Least Squares Regression** ([Code](src/least_squares.m))  
 - **Spline Interpolation** ([Code](src/spline_interp.m))  
 
-### 🔹 Differential Equations  
-- **Euler’s Method for ODEs** ([Code](src/euler_method.m))  
-- **Runge-Kutta Method** ([Code](src/runge_kutta.m))  
+### 🔹 Differential Equations   
+- **Runge-Kutta Method(RK2)** ([Code](src/runge_kutta2.m))
+- **Runge-Kutta Method(RK4)** ([Code](src/runge_kutta4.m))  
+  
 
 ## 📊 Case Studies & Applications  
 
