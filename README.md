@@ -27,40 +27,49 @@ This repository contains MATLAB implementations of various numerical methods com
 2. Open MATLAB and navigate to the cloned folder.
 3. Run any script from the src/ directory to test a numerical method.
 
-## 📖 Numerical Methods Covered
-🔹 Root-Finding Methods
-Newton-Raphson Method (Code)
-Quasi-Newton-Raphson Method (Code)
-Secant Method (Code)
-Regula Falsi (False-Position) Method (Code)
-🔹 Linear Algebra & Matrix Operations
-Gauss Elimination (Code)
-Matrix Operations (Addition, Multiplication, Inversion) (Code)
-🔹 Interpolation & Regression
-Least Squares Regression (Code)
-Lagrange Interpolation (Code)
-Spline Interpolation (Code)
-🔹 Differential Equations
-Euler’s Method for ODEs (Code)
-Runge-Kutta Method (Code)
- ## 📊 Case Studies & Applications
-This project includes chemical engineering case studies where these numerical methods are applied:
+## 📖 Numerical Methods Covered  
 
-Root-finding in phase equilibrium calculations
-Regression for chemical reaction rate modeling
-Interpolation in process optimization
-Differential equations in reaction kinetics
-## 🔗 Resources & References
-Textbook: Steven C. Chapra, Raymond P. Canale, Numerical Methods for Engineers, McGraw-Hill
-MATLAB Documentation: MathWorks Official Docs
-Chemical Engineering Applications: IIT (ISM) Dhanbad Course Materials
-## 👥 Contributing
-Contributions are welcome! If you’d like to improve the codes or add more methods, follow these steps:
+### 🔹 Root-Finding Methods  
+- **Newton-Raphson Method** ([Code](src/newton_raphson.m))  
+- **Quasi-Newton-Raphson Method** ([Code](src/quasi_newton.m))  
+- **Secant Method** ([Code](src/secant.m))  
+- **Regula Falsi (False-Position) Method** ([Code](src/regula_falsi.m))  
 
-Fork the repository
-Create a new branch (feature-new-method)
-Commit your changes and push to GitHub
-Open a Pull Request
+### 🔹 Linear Algebra & Matrix Operations  
+- **Gauss Elimination** ([Code](src/gauss_elimination.m))  
+- **Matrix Operations (Addition, Multiplication, Inversion)** ([Code](src/matrix_operations.m))  
+
+### 🔹 Interpolation & Regression  
+- **Least Squares Regression** ([Code](src/least_squares.m))  
+- **Lagrange Interpolation** ([Code](src/lagrange_interp.m))  
+- **Spline Interpolation** ([Code](src/spline_interp.m))  
+
+### 🔹 Differential Equations  
+- **Euler’s Method for ODEs** ([Code](src/euler_method.m))  
+- **Runge-Kutta Method** ([Code](src/runge_kutta.m))  
+
+## 📊 Case Studies & Applications  
+
+This project includes **chemical engineering case studies** where these numerical methods are applied:  
+- **Root-finding in phase equilibrium calculations**  
+- **Regression for chemical reaction rate modeling**  
+- **Interpolation in process optimization**  
+- **Differential equations in reaction kinetics**  
+
+## 🔗 Resources & References  
+
+- **Textbook:** Steven C. Chapra, Raymond P. Canale, *Numerical Methods for Engineers*, McGraw-Hill  
+- **MATLAB Documentation:** [MathWorks Official Docs](https://www.mathworks.com/help/matlab/)  
+- **Chemical Engineering Applications:** IIT (ISM) Dhanbad Course Materials  
+
+## 👥 Contributing  
+
+Contributions are welcome! If you’d like to improve the codes or add more methods, follow these steps:  
+
+1. **Fork** the repository  
+2. **Create a new branch** (`feature-new-method`)  
+3. **Commit your changes** and push to GitHub  
+4. **Open a Pull Request**  
 
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
