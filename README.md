@@ -7,7 +7,7 @@ This repository contains MATLAB implementations of various numerical methods com
 ## 📂 Repository Structure  
 - **README.md** → Project documentation  
 - **src/** → MATLAB scripts for numerical methods  
-- **notebooks/** → MATLAB live scripts (`.mlx`) for interactive learning  
+- **notebooks/** → MATLAB scripts (.m files) for numerical methods  
 - **data/** → Sample datasets used in the case studies  
 - **results/** → Output files and graphs from simulations  
 - **docs/** → Theoretical explanations and methodology  
@@ -27,7 +27,7 @@ This repository contains MATLAB implementations of various numerical methods com
 2. Open MATLAB and navigate to the cloned folder.
 3. Run any script from the src/ directory to test a numerical method.
 
-##📖 Numerical Methods Covered
+## 📖 Numerical Methods Covered
 🔹 Root-Finding Methods
 Newton-Raphson Method (Code)
 Quasi-Newton-Raphson Method (Code)
@@ -43,26 +43,27 @@ Spline Interpolation (Code)
 🔹 Differential Equations
 Euler’s Method for ODEs (Code)
 Runge-Kutta Method (Code)
-📊 Case Studies & Applications
+ ## 📊 Case Studies & Applications
 This project includes chemical engineering case studies where these numerical methods are applied:
 
 Root-finding in phase equilibrium calculations
 Regression for chemical reaction rate modeling
 Interpolation in process optimization
 Differential equations in reaction kinetics
-🔗 Resources & References
+## 🔗 Resources & References
 Textbook: Steven C. Chapra, Raymond P. Canale, Numerical Methods for Engineers, McGraw-Hill
 MATLAB Documentation: MathWorks Official Docs
 Chemical Engineering Applications: IIT (ISM) Dhanbad Course Materials
-👥 Contributing
+## 👥 Contributing
 Contributions are welcome! If you’d like to improve the codes or add more methods, follow these steps:
 
 Fork the repository
 Create a new branch (feature-new-method)
 Commit your changes and push to GitHub
 Open a Pull Request
-📜 License
+
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-⭐ Acknowledgments
+## ⭐ Acknowledgments
 Special thanks to IIT (ISM) Dhanbad and faculty members for providing insights into numerical methods for chemical engineering.
